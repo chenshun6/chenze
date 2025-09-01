@@ -1,0 +1,121 @@
+*{
+    margin: 0 auto;
+    padding: 0 ;
+}
+body{
+    width: 100%;
+    background-color: #041a09;
+}
+/* 最外侧大盒子 */
+.box{
+    width: 100%;
+    height: 9999999999999px;
+    
+}
+ /* 顶部导航栏 */
+.box .shouhang{
+    width: 100%;
+    height: 60px;
+}
+.box .shouhang h1{
+    color: white;
+    text-align: center;
+}
+        /* 软件下载中心 */
+.ruanjianxiazai{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+         /* 左侧导航栏 */
+.box-left{
+    width: 10%;
+    height: 100%;
+   
+
+}
+       /* 左侧盒子大小 */
+.box-left .card-title{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+}
+       /* 悬浮的按钮 */
+.box-left .card-title:hover{
+    background-color: pink;
+}
+        /* 点击的按钮 */
+.box-left .card-title:active{
+    background-color: red;
+}
+
+        /* 右侧导航栏 */
+
+
+
+.box-right{
+    width: 90%;
+    height: 100%;
+    background-color: black;
+}
+                 /* 软件下载大全网站区域 */
+.card-right-title{
+    width: 100%;
+    height: 50px;
+    background-color: 	#808080;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+         /* 软件下载大全网站内容  */
+         /* 可以根据的收集的软件的多少进行大小的调整  改那个width的大小就可以*/
+.card-content-1{
+    width: 100%;
+    height: 150PX;
+    background-color: black;
+    display: flex;
+}
+
+.card-content-2{
+    width: 100%;
+    height: 150PX;
+    background-color: black;
+    display: flex;
+}
+
+.box-right  .card-ruanjian{
+    width: 150px;
+    height: 120px;
+    background-color: black;
+    border: 2px solid white;
+    margin: 15px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+
+
+
+/* 去除a标签的下划线 */
+.box-right a {
+    text-decoration: none;
+}
+
+.box-right a:hover {
+    background-color: greenyellow;
+}
+
+
+.box-right  .card-ruanjian img{
+    width: 50px;
+    height: 50px;
+}
+
